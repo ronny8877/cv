@@ -1,0 +1,344 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+body{ background-color: black;}
+
+
+/* Navigation BAr */
+.navbar{
+
+background-color: black;
+
+
+}
+
+.navbar-brand{
+font-size: 1.6rem;
+font-family: 'Dancing Script', cursive;
+
+}
+.disabled{
+font-family: 'Dancing Script', cursive;
+text-align: center;
+
+}
+.navbar-nav{
+
+font-family: 'Montserrat', sans-serif;
+
+}
+
+/* End of nav bar */
+/*
+coursel section */
+
+
+.container-fluid{
+padding:5% 7%;
+
+
+}
+
+.round_img{
+  border-radius: 5%;
+  height: auto;
+  width: auto;
+}
+
+
+/* hr section */
+.hr-class{
+  border: none;
+  border-top-style:dotted;
+  border-width: 5px;
+
+  width: 3%;
+  margin: 0;
+color: grey;
+padding-top: 5px;
+
+}
+
+/*selections */
+
+
+
+/* Top */
+#headder{
+background-color:black;
+font-family: 'Montserrat', sans-serif;
+padding: 0;
+color:white;
+padding-top: 250px;
+text-align: center;
+font-size: 3.5vw;
+padding-bottom: 250px;
+/* padding-top: 5px; */
+
+}
+
+ #mid-top{
+
+background-color: black;
+color: white;
+
+}
+
+#middle-bottom{
+
+  background-color:black;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  color:white;
+  text-align: center;
+
+
+}
+
+
+#footer{
+background-color: #393e46;
+display: flex;
+justify-content: center;
+margin-top: 50px;
+
+
+}
+#mid_about{
+
+font-family: 'Montserrat', sans-serif;
+
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+
+
+
+}
+
+/* carousel */
+
+
+
+#Watch{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 80vh;
+background: black;
+padding-top: 5%;
+
+}
+
+/* Watch */
+.watch_class{
+/* position: absolute; */
+width: 380px;
+height: 380px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url(clock.png);
+background-size: cover;
+border-radius: 50%;
+
+border: 4px solid black;
+box-shadow: 0 -20px 15px rgba(255, 255, 255, 0.04),
+        inset  0 -20px 15px rgba(255, 255, 0, 0.03),
+         0 20px 15px rgba(255, 255, 255, 0.04),
+          inset 0 20px 15px rgba(255, 255, 0, 0.03);
+
+
+}
+
+.watch_class:before{
+
+content: '';
+position: absolute;
+width: 15px;
+height: 15px;
+background: #fff;
+border-radius: 50%;
+z-index: 1000;
+
+}
+
+.watch_class .hour,
+.watch_class .min,
+.watch_class .sec{
+position: absolute;
+
+}
+
+.watch_class .hour, .hr {
+
+  width: 160px;
+  height: 160px;
+
+}
+
+
+.watch_class .min, .mn {
+
+  width: 190px;
+  height: 190px;
+
+}
+
+.watch_class .sec, .sc {
+
+  width: 230px;
+  height: 230px;
+
+}
+
+.hr, .mn, .sc{
+
+display: flex;
+justify-content: center;
+/* align-items: center; */
+position: absolute;
+border-radius: 50%;
+
+}
+
+.hr:before{
+
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 80px;
+z-index: 10;
+  background: #ff105e;
+  border-radius: 5px 5px 0 0;
+
+}
+
+.mn:before{
+
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 150px;
+z-index: 12;
+  background: #ff105e; ;
+  border-radius: 5px 5px 0 0;
+
+}
+.sc:before{
+
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 180px;
+z-index: 12;
+  background:white;
+  border-radius: 5px 5px 0 0;
+
+}
+
+/* watch greeting section */
+
+.greeting{
+
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items:center;
+  font-family: 'Dancing Script', cursive;
+  padding-top: 550px;
+  padding-bottom: 20px;
+
+}
+
+
+
+.dev{
+padding: 0;
+margin:0;
+
+}
+
+
+.center{
+
+display: flex;
+justify-content: center;
+
+}
+
+.col-md-4{
+
+text-align: center;
+
+}
+
+
+.adj{
+  font-size: 5rem;
+text-align: center;
+color: green;
+ text-shadow: 2px 2px black;
+ padding: 15px 0;
+
+
+}
+
+.round-img{
+height: 220px;
+width: 200px;
+padding: 25px 0;
+
+border-radius: 50%;
+
+
+
+}
+
+.btn{
+
+margin-top: 65px;
+
+}
+
+.fab{
+color: white;
+padding-top: 25px 15px;
+}
+
+.mid-font{
+
+font-family: 'Ubuntu', sans-serif;
+
+}
+
+/* Mobile Friendly */
+
+/* @media screen and (max-width: 600px) {
+
+#Watch{
+  min-height: 65vh;
+  background: black;
+  padding-top: 20%;
+
+
+yet to write
+
+}
+
+  #headder{
+
+    font-size: 3.5vw;
+    padding-top: 2%;
+  }
+
+}
+ */
+
+
+/* Greter then  1440px */
