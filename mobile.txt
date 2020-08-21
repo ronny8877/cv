@@ -1,0 +1,2 @@
+this is a commit i am trying from a cli of a mobile app
+this is pretty hard sometime it doset work at all
